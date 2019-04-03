@@ -1,0 +1,52 @@
+﻿[
+  {
+    "stationid": "090909",
+    "stationname": "Thượng Cát",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "09092",
+    "stationname": "Phúc Tân",
+    "status": "Mưa"
+  },
+  {
+    "stationid": "090903",
+    "stationname": "Thanh Lương",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "090910",
+    "stationname": "Thanh Trì",
+    "status": "Mưa"
+  },
+  {
+    "stationid": "09099",
+    "stationname": "Thượng Cát",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "090904",
+    "stationname": "Định Công",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "09091",
+    "stationname": "Vĩnh Quỳnh",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "090905",
+    "stationname": "Tả Thanh Oai",
+    "status": "Hoạt động"
+  },
+  {
+    "stationid": "090912",
+    "stationname": "Phú Lãm",
+    "status": "Không Hoạt động"
+  },
+  {
+    "stationid": "090901",
+    "stationname": "Láng Thượng",
+    "status": "Hoạt động"
+  }
+]
