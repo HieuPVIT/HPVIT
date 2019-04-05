@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LocalJson1,assembly=LocalJson"
+              xmlns:dg="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             Title="STATION"
+             x:Class="LocalJson1.MainPage">
+    <StackLayout Padding="20" Spacing="0">
+        <Label Margin="0,0,0,20" FontSize="Large" Text="kttvnuget"
+               TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Frame BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0" HeightRequest="60">
+            <Grid Padding="0" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2.5*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="4.5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Margin="10,0,10,0" Text="Mã Tr?m" VerticalOptions="Center" Grid.Column="0"/>
+                <Label Margin="10,0,10,0" Text="Tên Tr?m" VerticalOptions="Center" Grid.Column="1"/>
+                <Label Margin="10,0,10,0" Text="TT Ho?t Ð?ng" VerticalOptions="Center" Grid.Column="2"/>
+
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+            </Grid>
+        </Frame>
+        <ListView x:Name="MyListView" BackgroundColor="White" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <dg:DataGrid RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8" ActiveRowColor="#8899AA">
+                            <dg:DataGrid.Columns>
+                                <dg:DataGridColumn PropertyName="StationID">
+                                    <dg:DataGridColumn.FormattedTitle>
+                                        <FormattedString>
+                                            <Span Text="{Binding stationid}" ForegroundColor="#333333" FontSize="11" />
+                                        </FormattedString>
+                                    </dg:DataGridColumn.FormattedTitle>
+                                </dg:DataGridColumn>
+                                <dg:DataGridColumn PropertyName="StationName">
+                                    <dg:DataGridColumn.FormattedTitle>
+                                        <FormattedString>
+                                            <Span Text="{Binding stationname}" ForegroundColor="#333333" FontSize="11" />
+                                        </FormattedString>
+                                    </dg:DataGridColumn.FormattedTitle>
+                                </dg:DataGridColumn>
+
+                                <dg:DataGridColumn PropertyName="Status">
+                                    <dg:DataGridColumn.FormattedTitle>
+                                        <FormattedString>
+                                            <Span Text="{Binding status}" ForegroundColor="#333333" FontSize="11" />
+                                        </FormattedString>
+                                    </dg:DataGridColumn.FormattedTitle>
+                                </dg:DataGridColumn>
+                            </dg:DataGrid.Columns>
+                        </dg:DataGrid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

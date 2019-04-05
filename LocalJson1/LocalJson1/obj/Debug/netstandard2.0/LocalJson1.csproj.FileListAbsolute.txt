@@ -1,0 +1,12 @@
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\bin\Debug\netstandard2.0\LocalJson1.deps.json
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\bin\Debug\netstandard2.0\LocalJson1.dll
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.csprojAssemblyReference.cache
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.csproj.CoreCompileInputs.cache
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.AssemblyInfoInputs.cache
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.AssemblyInfo.cs
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\bin\Debug\netstandard2.0\LocalJson1.pdb
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.dll
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\LocalJson1.pdb
+C:\Users\phanv\source\repos\LocalJson1\LocalJson1\obj\Debug\netstandard2.0\XamlC.stamp
